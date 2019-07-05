@@ -9,3 +9,12 @@ value.parseJson().results[0].geometry.location.lat
 comando para obtener longitud:
 
 value.parseJson().results[0].geometry.location.lng
+
+
+url para obtener APY_KEY:
+
+https://console.cloud.google.com/home/dashboard
+
+////// mapping //////
+
+https://www.google.com/mymaps
