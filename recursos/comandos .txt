@@ -1,0 +1,11 @@
+comando para obtener informacion de google:
+
+"https://maps.googleapis.com/maps/api/geocode/json?address=" + escape(value,"url") + "&key=YOUR_API_KEY"
+
+comando para obtener latitud:
+
+value.parseJson().results[0].geometry.location.lat
+
+comando para obtener longitud:
+
+value.parseJson().results[0].geometry.location.lng
